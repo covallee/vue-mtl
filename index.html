@@ -8,7 +8,7 @@
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/moon.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
@@ -25,8 +25,90 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h1>Vue Conf TO 2019</h1>
+				</section>
+
+				<section data-background="assets/venue.jpg"></section>
+				<section data-background="assets/improvconf.jpg"></section>
+				<section data-background="assets/constant.jpg"></section>
+				
+				<section>
+					<h2>Evan You: Design Principles of Vue 3.0</h2>
+					<ul class="fragment">
+						<li>+ 1 Million Weekly Active Users</li>
+						<li>+ 1 Million Weekly NPM download</li>
+					</ul>
+				</section>
+
+				<section data-background="assets/louisvuitton.jpg"></section>
+				<section>
+					<ul>
+						<li>faster</li>
+						<li>more perfomant - 100%-130% perf increase</li>
+						<li>smaller - 10k gzip bundle size</li>
+						<li>lower level flexibility</li>
+						<li>composition API</li>
+						<li>TypeScript Support</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Alex Kyriakidis: Vue 3 and Composition API</h2>
+				</section>
+				
+				<section data-background="assets/compositionapi.jpg"></section>
+				
+				<section>
+					<ul>
+						<li>Code Organisation</li>
+						<li>Logic Reuse</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Natalia Tepluhina: How to build beautiful Vuesualizations without being a scientist</h2>
+				</section>
+				
+				<section data-background="assets/d3.jpg"></section>
+				
+				<section>
+					<h2>Sarah Dayan: Test-Driven Development with Vue.js</h2>
+				</section>
+				<section data-background="assets/tdd.jpg"></section>
+
+				<section>
+					<h2>Filip Rakowski: How to build customizable and reusable Vue components</h2>
+				</section>
+				<section data-background="assets/componentlibrary.png"></section>
+				<section data-background="assets/designsystem.png"></section>
+				
+				<section>
+					<h2>Chris Fritz: Building sustainable enterprise apps with Vue</h2>
+				</section>
+				<section data-background="assets/vuehire.jpg"></section>
+				<section>
+					<ul>
+						<li>Code is like comedy, if it takes too long to explain it’s not great</li>
+						<li>Code is like garbage, you want your code to be able to be thrown away easily</li>
+					</ul>
+				</section>
+				<section data-background="assets/essentialtest.jpg"></section>
+
+				<section>
+					<h2>Amir Rustamzadeh: End-to-End Testing Vue Apps with Cypress</h2>
+				</section>
+				<section data-background="assets/shiftleft.jpg"></section>
+				<section data-background="assets/cypress.jpg"></section>
+				<section data-background="assets/visualreg.jpg"></section>
+				<section data-background="assets/cypressci.jpg"></section>
+
+				<section>
+					<h2>Michael Thiessen: Lessons Learned Building a Reusable Component Library</h2>
+				</section>
+				<section data-background="assets/lesson2.jpg"></section>
+
+				<section data-background="assets/thankyou.jpg"></section>
 			</div>
 		</div>
 
@@ -37,6 +119,11 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+				transition: 'slide',
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
